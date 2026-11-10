@@ -54,6 +54,7 @@ namespace AlgoLesson6
                 Search(hand, i + 1, maxCount, selected, ref best);
 
                 selected.RemoveAt(selected.Count - 1);
+
             }
 
             // TODO 12: start부터 손패 끝까지 카드를 하나씩 선택하세요.
